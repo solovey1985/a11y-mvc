@@ -1,0 +1,44 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/keyboard" routerLinkActive="active"
+        >Keyboard Operations</a
+      >
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/contrast" routerLinkActive="active"
+        >Contrast Test</a
+      >
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/content" routerLinkActive="active"
+        >TOC</a
+      >
+    </li>
+  </ul>
+  <div>
+    <button
+      type="button"
+      class="btn btn-success btn-md"
+      (click)="switchATUser()"
+    >
+      <i *ngIf="isAtUser" class="bi bi-eye-slash"></i>
+      <i *ngIf="!isAtUser" class="bi bi-eye"></i>
+    </button>
+    <div class="ms-1 btn-group"><button
+      type="button"
+      class="btn btn-success btn-md"
+      (click)="increaseFontSize()"
+    >
+      <i class="bi bi-plus"></i>
+    </button> 
+    <button
+    type="button"
+    class="btn btn-success btn-md"
+    (click)="decreaseFontSize()"
+  >
+    <i class="bi bi-dash"></i>
+  </button></div>
+    
+  </div>
+</nav>

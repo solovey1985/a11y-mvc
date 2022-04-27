@@ -1,0 +1,15 @@
+h3{
+    color: #000 !important;
+}
+
+h2{
+    color: #333 !important;
+}
+
+.metroBlueButton, .sStartImport {
+    color: #333 !important;
+    background-color: #ccc !important;
+  }
+  .wrapper{
+      background: #fff !important;
+  }

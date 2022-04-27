@@ -1,0 +1,30 @@
+<h3>Form</h3>
+      <form tabindex="-1" id="mainForm">
+        <div style="display: flex; flex-direction: column">
+          <label id="firstName" for="firstName">First Name</label>
+          <input
+            type="text"
+            autocomplete="cc-name"
+            name="firstName"
+            aria-labelledby="firstName"
+          />
+        </div>
+        <div style="display: flex; flex-direction: column">
+          <label id="lastName" for="lastName">Last Name</label>
+          <input
+            type="text"
+            name="lastName"
+            autocomplete="cc-family-name"
+            aria-labelledby='lastName'
+          />
+        </div>
+        <div style="display: flex; flex-direction: column">
+          <label id="phone" for="phone">Phone</label>
+          <input
+            type="tel"
+            name="phone"
+            autocomplete="tel"
+            aria-labelledby="phone"
+          />
+        </div>
+      </form>

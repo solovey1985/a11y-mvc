@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+node_modules
+Packages
+.vs
+bin
+[Dd]ebug
+[Oo]bj/
