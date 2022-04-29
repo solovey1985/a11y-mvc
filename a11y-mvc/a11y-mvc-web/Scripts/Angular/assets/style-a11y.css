@@ -1,15 +1,13 @@
-h3{
-    color: #000 !important;
+h1,h2,h3,h4,h5,h6,p, a{
+    color: #ff0000 !important;
 }
 
-h2{
-    color: #333 !important;
-}
 
-.metroBlueButton, .sStartImport {
+.navbar-inverse {
     color: #333 !important;
     background-color: #ccc !important;
-  }
-  .wrapper{
-      background: #fff !important;
-  }
+}
+.wrapper, .btn {
+    background: #fff !important;
+    color: #000 !important;
+}
